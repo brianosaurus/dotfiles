@@ -1,0 +1,241 @@
+2015-08-26 17:38:01	--	irc: connecting to server chat.freenode.net/6667...
+2015-08-26 17:38:03	--	irc: connected to chat.freenode.net/6667 (185.30.166.38)
+2015-08-26 17:38:03	--	orwell.freenode.net: *** Looking up your hostname...
+2015-08-26 17:38:03	--	orwell.freenode.net: *** Checking Ident
+2015-08-26 17:38:04	--	orwell.freenode.net: *** Found your hostname
+2015-08-26 17:38:13	--	orwell.freenode.net: *** No Ident response
+2015-08-26 17:38:13	--	Welcome to the freenode Internet Relay Chat Network brian
+2015-08-26 17:38:13	--	Your host is orwell.freenode.net[185.30.166.38/6667], running version ircd-seven-1.1.3
+2015-08-26 17:38:13	--	This server was created Wed Jun 10 2015 at 11:48:48 UTC
+2015-08-26 17:38:13	--	orwell.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-08-26 17:38:13	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-08-26 17:38:13	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-08-26 17:38:13	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-08-26 17:38:13	--	There are 156 users and 84208 invisible on 26 servers
+2015-08-26 17:38:13	--	22 :IRC Operators online
+2015-08-26 17:38:13	--	5 :unknown connection(s)
+2015-08-26 17:38:13	--	61779 :channels formed
+2015-08-26 17:38:13	--	I have 4296 clients and 1 servers
+2015-08-26 17:38:13	--	4296 4975 :Current local users 4296, max 4975
+2015-08-26 17:38:13	--	84364 96692 :Current global users 84364, max 96692
+2015-08-26 17:38:13	--	Highest connection count: 4976 (4975 clients) (427491 connections received)
+2015-08-26 17:38:13	--	- orwell.freenode.net Message of the Day -
+2015-08-26 17:38:13	--	- Welcome to orwell.freenode.net in Amsterdam, NL.
+2015-08-26 17:38:13	--	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2015-08-26 17:38:13	--	- this server!
+2015-08-26 17:38:13	--	-
+2015-08-26 17:38:13	--	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+2015-08-26 17:38:13	--	- moved him to England when he was one year old, and it
+2015-08-26 17:38:13	--	- was in England where he was educated and spent most of
+2015-08-26 17:38:13	--	- his life.  Orwell is perhaps best known for his novels
+2015-08-26 17:38:13	--	- Nineteen Eighty-Four and Animal Farm.
+2015-08-26 17:38:13	--	-
+2015-08-26 17:38:13	--	-
+2015-08-26 17:38:13	--	- Welcome to freenode - supporting the free and open source
+2015-08-26 17:38:13	--	- software communities since 1998.
+2015-08-26 17:38:13	--	-
+2015-08-26 17:38:13	--	- By connecting to freenode you indicate that you have read and
+2015-08-26 17:38:13	--	- accept our policies as set out on http://www.freenode.net
+2015-08-26 17:38:13	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-08-26 17:38:13	--	- any network-related questions or queries, where a number of
+2015-08-26 17:38:13	--	- volunteer staff and helpful users will be happy to assist you.
+2015-08-26 17:38:13	--	-
+2015-08-26 17:38:13	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-08-26 17:38:13	--	- together with like-minded FOSS enthusiasts for talks and
+2015-08-26 17:38:13	--	- real-life collaboration.
+2015-08-26 17:38:13	--	-
+2015-08-26 17:38:13	--	- We would like to thank Private Internet Access
+2015-08-26 17:38:13	--	- (https://www.privateinternetaccess.com/) and the other
+2015-08-26 17:38:13	--	- organisations that help keep freenode and our other projects
+2015-08-26 17:38:13	--	- running for their sustained support.
+2015-08-26 17:38:13	--	-
+2015-08-26 17:38:13	--	- In particular we would like to thank the sponsor
+2015-08-26 17:38:13	--	- of this server, details of which can be found above.
+2015-08-26 17:38:13	--	-
+2015-08-26 17:38:13	--	End of /MOTD command.
+2015-08-26 17:38:13	--	User mode [+i] by brian
+2015-08-26 17:38:13	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-08-26 17:38:13	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-08-26 17:38:43	--	NickServ (NickServ@services.): You failed to identify in time for the nickname brian
+2015-08-26 17:38:43	--	You are now known as Guest95225
+2015-08-26 17:39:11	--	brian: Nick/channel is temporarily unavailable
+2015-08-26 17:40:58	--	irc: connecting to server chat.freenode.net/6667...
+2015-08-26 17:40:58	--	irc: connected to chat.freenode.net/6667 (174.143.119.91)
+2015-08-26 17:40:58	--	asimov.freenode.net: *** Looking up your hostname...
+2015-08-26 17:40:59	--	asimov.freenode.net: *** Checking Ident
+2015-08-26 17:40:59	--	asimov.freenode.net: *** Found your hostname
+2015-08-26 17:41:06	--	asimov.freenode.net: *** No Ident response
+2015-08-26 17:41:06	--	*: brian :Nick/channel is temporarily unavailable
+2015-08-26 17:41:06	=!=	irc: nickname "brian" is unavailable, trying nickname "brianosaurus"
+2015-08-26 17:41:06	--	Welcome to the freenode Internet Relay Chat Network brianosaurus
+2015-08-26 17:41:06	--	Your host is asimov.freenode.net[174.143.119.91/6667], running version ircd-seven-1.1.3
+2015-08-26 17:41:06	--	This server was created Tue Jul 22 2014 at 13:52:16 UTC
+2015-08-26 17:41:06	--	asimov.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-08-26 17:41:06	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-08-26 17:41:06	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-08-26 17:41:06	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-08-26 17:41:06	--	There are 156 users and 84205 invisible on 26 servers
+2015-08-26 17:41:06	--	22 :IRC Operators online
+2015-08-26 17:41:06	--	6 :unknown connection(s)
+2015-08-26 17:41:06	--	61784 :channels formed
+2015-08-26 17:41:06	--	I have 3581 clients and 1 servers
+2015-08-26 17:41:06	--	3581 11441 :Current local users 3581, max 11441
+2015-08-26 17:41:06	--	84361 102229 :Current global users 84361, max 102229
+2015-08-26 17:41:06	--	Highest connection count: 11442 (11441 clients) (5357619 connections received)
+2015-08-26 17:41:06	--	- asimov.freenode.net Message of the Day -
+2015-08-26 17:41:06	--	- Welcome to asimov.freenode.net in TX, USA!  Thanks to
+2015-08-26 17:41:06	--	- Rackspace (www.rackspace.com) for sponsoring
+2015-08-26 17:41:06	--	- this server!
+2015-08-26 17:41:06	--	-
+2015-08-26 17:41:06	--	- ASIMOV, ISAAC [1920-1992].  One of the brightest stars of the
+2015-08-26 17:41:06	--	- science fiction universe.  Author of I Robot, the
+2015-08-26 17:41:06	--	- Foundation series (which "grew like Topsy"), Pebble in the
+2015-08-26 17:41:06	--	- Sky and hundreds of works of science fact and science
+2015-08-26 17:41:06	--	- fiction.
+2015-08-26 17:41:06	--	-
+2015-08-26 17:41:06	--	- Welcome to freenode - supporting the free and open source
+2015-08-26 17:41:06	--	- software communities since 1998.
+2015-08-26 17:41:06	--	-
+2015-08-26 17:41:06	--	- By connecting to freenode you indicate that you have read and
+2015-08-26 17:41:06	--	- accept our policies as set out on http://www.freenode.net
+2015-08-26 17:41:06	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-08-26 17:41:06	--	- any network-related questions or queries, where a number of
+2015-08-26 17:41:06	--	- volunteer staff and helpful users will be happy to assist you.
+2015-08-26 17:41:06	--	-
+2015-08-26 17:41:06	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-08-26 17:41:06	--	- together with like-minded FOSS enthusiasts for talks and
+2015-08-26 17:41:06	--	- real-life collaboration.
+2015-08-26 17:41:06	--	-
+2015-08-26 17:41:06	--	- We would like to thank Private Internet Access
+2015-08-26 17:41:06	--	- (https://www.privateinternetaccess.com/) and the other
+2015-08-26 17:41:06	--	- organisations that help keep freenode and our other projects
+2015-08-26 17:41:06	--	- running for their sustained support.
+2015-08-26 17:41:06	--	-
+2015-08-26 17:41:06	--	- In particular we would like to thank the sponsor
+2015-08-26 17:41:06	--	- of this server, details of which can be found above.
+2015-08-26 17:41:06	--	-
+2015-08-26 17:41:06	--	End of /MOTD command.
+2015-08-26 17:41:06	--	User mode [+i] by brianosaurus
+2015-08-27 11:09:42	--	irc: connecting to server chat.freenode.net/6667...
+2015-08-27 11:09:42	--	irc: connected to chat.freenode.net/6667 (62.231.75.133)
+2015-08-27 11:09:42	--	hobana.freenode.net: *** Looking up your hostname...
+2015-08-27 11:09:43	--	hobana.freenode.net: *** Checking Ident
+2015-08-27 11:09:43	--	hobana.freenode.net: *** Found your hostname
+2015-08-27 11:09:50	--	hobana.freenode.net: *** No Ident response
+2015-08-27 11:09:50	--	Welcome to the freenode Internet Relay Chat Network brian
+2015-08-27 11:09:50	--	Your host is hobana.freenode.net[62.231.75.133/6667], running version ircd-seven-1.1.3
+2015-08-27 11:09:50	--	This server was created Wed Jan 14 2015 at 20:30:44 UTC
+2015-08-27 11:09:50	--	hobana.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-08-27 11:09:50	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-08-27 11:09:50	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-08-27 11:09:50	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-08-27 11:09:50	--	There are 173 users and 92546 invisible on 26 servers
+2015-08-27 11:09:50	--	22 :IRC Operators online
+2015-08-27 11:09:50	--	11 :unknown connection(s)
+2015-08-27 11:09:50	--	62516 :channels formed
+2015-08-27 11:09:50	--	I have 7789 clients and 1 servers
+2015-08-27 11:09:50	--	7789 9437 :Current local users 7789, max 9437
+2015-08-27 11:09:50	--	92719 101658 :Current global users 92719, max 101658
+2015-08-27 11:09:50	--	Highest connection count: 9438 (9437 clients) (2536000 connections received)
+2015-08-27 11:09:50	--	- hobana.freenode.net Message of the Day -
+2015-08-27 11:09:50	--	- Welcome to hobana.freenode.net in Bucharest, Romania! Thank
+2015-08-27 11:09:50	--	- you to RCS-RDS for sponsoring this server!
+2015-08-27 11:09:50	--	-
+2015-08-27 11:09:50	--	- Ion Hobana (1931-2011) was a Romanian science fiction writer,
+2015-08-27 11:09:50	--	- literary critic and ufologist. Ion Hobana is a literary
+2015-08-27 11:09:50	--	- pseudonym, the writer's real name being Aurelian Manta Rosie.
+2015-08-27 11:09:50	--	-
+2015-08-27 11:09:50	--	- Welcome to freenode - supporting the free and open source
+2015-08-27 11:09:50	--	- software communities since 1998.
+2015-08-27 11:09:50	--	-
+2015-08-27 11:09:50	--	- By connecting to freenode you indicate that you have read and
+2015-08-27 11:09:50	--	- accept our policies as set out on http://www.freenode.net
+2015-08-27 11:09:50	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-08-27 11:09:50	--	- any network-related questions or queries, where a number of
+2015-08-27 11:09:50	--	- volunteer staff and helpful users will be happy to assist you.
+2015-08-27 11:09:50	--	-
+2015-08-27 11:09:50	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-08-27 11:09:50	--	- together with like-minded FOSS enthusiasts for talks and
+2015-08-27 11:09:50	--	- real-life collaboration.
+2015-08-27 11:09:50	--	-
+2015-08-27 11:09:50	--	- We would like to thank Private Internet Access
+2015-08-27 11:09:50	--	- (https://www.privateinternetaccess.com/) and the other
+2015-08-27 11:09:50	--	- organisations that help keep freenode and our other projects
+2015-08-27 11:09:50	--	- running for their sustained support.
+2015-08-27 11:09:50	--	-
+2015-08-27 11:09:50	--	- In particular we would like to thank the sponsor
+2015-08-27 11:09:50	--	- of this server, details of which can be found above.
+2015-08-27 11:09:50	--	-
+2015-08-27 11:09:50	--	End of /MOTD command.
+2015-08-27 11:09:50	--	User mode [+i] by brian
+2015-08-27 11:09:51	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2015-08-27 11:09:51	--	NickServ (NickServ@services.): You have 30 seconds to identify to your nickname before it is changed.
+2015-08-27 11:10:20	--	NickServ (NickServ@services.): You failed to identify in time for the nickname brian
+2015-08-27 11:10:20	--	You are now known as Guest99006
+2015-08-27 11:11:59	--	irc: connecting to server chat.freenode.net/6667...
+2015-08-27 11:12:29	=!=	irc: address "chat.freenode.net" not found
+2015-08-27 11:12:29	=!=	irc: error: nodename nor servname provided, or not known
+2015-08-27 11:12:29	--	irc: reconnecting to server in 10 seconds
+2015-08-27 11:12:39	--	irc: reconnecting to server...
+2015-08-27 11:12:39	--	irc: connecting to server chat.freenode.net/6667...
+2015-08-27 11:13:09	=!=	irc: address "chat.freenode.net" not found
+2015-08-27 11:13:09	=!=	irc: error: nodename nor servname provided, or not known
+2015-08-27 11:13:09	--	irc: reconnecting to server in 20 seconds
+2015-08-27 11:13:29	--	irc: reconnecting to server...
+2015-08-27 11:13:29	--	irc: connecting to server chat.freenode.net/6667...
+2015-08-27 11:13:29	--	irc: connected to chat.freenode.net/6667 (174.143.119.91)
+2015-08-27 11:13:29	--	asimov.freenode.net: *** Looking up your hostname...
+2015-08-27 11:13:29	--	asimov.freenode.net: *** Checking Ident
+2015-08-27 11:13:29	--	asimov.freenode.net: *** Found your hostname
+2015-08-27 11:13:35	--	asimov.freenode.net: *** No Ident response
+2015-08-27 11:13:35	--	*: brian :Nick/channel is temporarily unavailable
+2015-08-27 11:13:35	=!=	irc: nickname "brian" is unavailable, trying nickname "brianosaurus"
+2015-08-27 11:13:35	--	Welcome to the freenode Internet Relay Chat Network brianosaurus
+2015-08-27 11:13:35	--	Your host is asimov.freenode.net[174.143.119.91/6667], running version ircd-seven-1.1.3
+2015-08-27 11:13:35	--	This server was created Tue Jul 22 2014 at 13:52:16 UTC
+2015-08-27 11:13:35	--	asimov.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2015-08-27 11:13:35	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2015-08-27 11:13:35	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2015-08-27 11:13:35	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2015-08-27 11:13:35	--	There are 172 users and 92516 invisible on 26 servers
+2015-08-27 11:13:35	--	22 :IRC Operators online
+2015-08-27 11:13:35	--	8 :unknown connection(s)
+2015-08-27 11:13:35	--	62497 :channels formed
+2015-08-27 11:13:35	--	I have 4090 clients and 1 servers
+2015-08-27 11:13:35	--	4090 11441 :Current local users 4090, max 11441
+2015-08-27 11:13:35	--	92688 102229 :Current global users 92688, max 102229
+2015-08-27 11:13:35	--	Highest connection count: 11442 (11441 clients) (5366987 connections received)
+2015-08-27 11:13:35	--	- asimov.freenode.net Message of the Day -
+2015-08-27 11:13:35	--	- Welcome to asimov.freenode.net in TX, USA!  Thanks to
+2015-08-27 11:13:35	--	- Rackspace (www.rackspace.com) for sponsoring
+2015-08-27 11:13:35	--	- this server!
+2015-08-27 11:13:35	--	-
+2015-08-27 11:13:35	--	- ASIMOV, ISAAC [1920-1992].  One of the brightest stars of the
+2015-08-27 11:13:35	--	- science fiction universe.  Author of I Robot, the
+2015-08-27 11:13:35	--	- Foundation series (which "grew like Topsy"), Pebble in the
+2015-08-27 11:13:35	--	- Sky and hundreds of works of science fact and science
+2015-08-27 11:13:35	--	- fiction.
+2015-08-27 11:13:35	--	-
+2015-08-27 11:13:35	--	- Welcome to freenode - supporting the free and open source
+2015-08-27 11:13:35	--	- software communities since 1998.
+2015-08-27 11:13:35	--	-
+2015-08-27 11:13:35	--	- By connecting to freenode you indicate that you have read and
+2015-08-27 11:13:35	--	- accept our policies as set out on http://www.freenode.net
+2015-08-27 11:13:35	--	- freenode runs an open proxy scanner. Please join #freenode for
+2015-08-27 11:13:35	--	- any network-related questions or queries, where a number of
+2015-08-27 11:13:35	--	- volunteer staff and helpful users will be happy to assist you.
+2015-08-27 11:13:35	--	-
+2015-08-27 11:13:35	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2015-08-27 11:13:35	--	- together with like-minded FOSS enthusiasts for talks and
+2015-08-27 11:13:35	--	- real-life collaboration.
+2015-08-27 11:13:35	--	-
+2015-08-27 11:13:35	--	- We would like to thank Private Internet Access
+2015-08-27 11:13:35	--	- (https://www.privateinternetaccess.com/) and the other
+2015-08-27 11:13:35	--	- organisations that help keep freenode and our other projects
+2015-08-27 11:13:35	--	- running for their sustained support.
+2015-08-27 11:13:35	--	-
+2015-08-27 11:13:35	--	- In particular we would like to thank the sponsor
+2015-08-27 11:13:35	--	- of this server, details of which can be found above.
+2015-08-27 11:13:35	--	-
+2015-08-27 11:13:35	--	End of /MOTD command.
+2015-08-27 11:13:35	--	User mode [+i] by brianosaurus

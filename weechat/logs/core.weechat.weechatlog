@@ -1,0 +1,145 @@
+2015-08-26 17:35:50		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-08-26 17:35:53	=!=	Error: unknown command "/quot" (type /help for help)
+2015-08-26 17:35:58		[core]
+2015-08-26 17:35:58		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2015-08-26 17:35:58		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2015-08-26 17:35:58		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2015-08-26 17:35:58		[alias]
+2015-08-26 17:35:58		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    W        WII    
+2015-08-26 17:35:58		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        unalias  WC       WW     
+2015-08-26 17:35:58		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       V        WI     
+2015-08-26 17:35:58		[charset]
+2015-08-26 17:35:58		  charset
+2015-08-26 17:35:58		[exec]
+2015-08-26 17:35:58		  exec
+2015-08-26 17:35:58		[irc]
+2015-08-26 17:35:58		  admin       dehalfop    ison        me          oper        remove      servlist    unquiet     whowas    
+2015-08-26 17:35:58		  allchan     deop        join        mode        part        restart     squery      userhost  
+2015-08-26 17:35:58		  allpv       devoice     kick        motd        ping        sajoin      squit       users     
+2015-08-26 17:35:58		  allserv     die         kickban     msg         pong        samode      stats       version   
+2015-08-26 17:35:58		  ban         disconnect  kill        names       query       sanick      summon      voice     
+2015-08-26 17:35:58		  connect     halfop      links       nick        quiet       sapart      time        wallchops 
+2015-08-26 17:35:58		  ctcp        ignore      list        notice      quote       saquit      topic       wallops   
+2015-08-26 17:35:58		  cycle       info        lusers      notify      reconnect   server      trace       who       
+2015-08-26 17:35:58		  dcc         invite      map         op          rehash      service     unban       whois     
+2015-08-26 17:35:58		[logger]
+2015-08-26 17:35:58		  logger
+2015-08-26 17:35:58		[relay]
+2015-08-26 17:35:58		  relay
+2015-08-26 17:35:58		[script]
+2015-08-26 17:35:58		  script
+2015-08-26 17:35:58		[tcl]
+2015-08-26 17:35:58		  tcl
+2015-08-26 17:35:58		[trigger]
+2015-08-26 17:35:58		  trigger
+2015-08-26 17:35:58		[xfer]
+2015-08-26 17:35:58		  me  xfer
+2015-08-26 17:36:20		[core]
+2015-08-26 17:36:20		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2015-08-26 17:36:20		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2015-08-26 17:36:20		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2015-08-26 17:36:20		[alias]
+2015-08-26 17:36:20		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    W        WII    
+2015-08-26 17:36:20		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        unalias  WC       WW     
+2015-08-26 17:36:20		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       V        WI     
+2015-08-26 17:36:20		[charset]
+2015-08-26 17:36:20		  charset
+2015-08-26 17:36:20		[exec]
+2015-08-26 17:36:20		  exec
+2015-08-26 17:36:20		[irc]
+2015-08-26 17:36:20		  admin       dehalfop    ison        me          oper        remove      servlist    unquiet     whowas    
+2015-08-26 17:36:20		  allchan     deop        join        mode        part        restart     squery      userhost  
+2015-08-26 17:36:20		  allpv       devoice     kick        motd        ping        sajoin      squit       users     
+2015-08-26 17:36:20		  allserv     die         kickban     msg         pong        samode      stats       version   
+2015-08-26 17:36:20		  ban         disconnect  kill        names       query       sanick      summon      voice     
+2015-08-26 17:36:20		  connect     halfop      links       nick        quiet       sapart      time        wallchops 
+2015-08-26 17:36:20		  ctcp        ignore      list        notice      quote       saquit      topic       wallops   
+2015-08-26 17:36:20		  cycle       info        lusers      notify      reconnect   server      trace       who       
+2015-08-26 17:36:20		  dcc         invite      map         op          rehash      service     unban       whois     
+2015-08-26 17:36:20		[logger]
+2015-08-26 17:36:20		  logger
+2015-08-26 17:36:20		[relay]
+2015-08-26 17:36:20		  relay
+2015-08-26 17:36:20		[script]
+2015-08-26 17:36:20		  script
+2015-08-26 17:36:20		[tcl]
+2015-08-26 17:36:20		  tcl
+2015-08-26 17:36:20		[trigger]
+2015-08-26 17:36:20		  trigger
+2015-08-26 17:36:20		[xfer]
+2015-08-26 17:36:20		  me  xfer
+2015-08-26 17:36:27		[alias]  /Q  
+2015-08-26 17:36:27		query
+2015-08-26 17:36:33	=!=	Error: WeeChat main buffer can't be closed
+2015-08-26 17:37:48		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-08-26 17:37:53	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2015-08-26 17:39:17		[irc]  /nick  [-all] <nick>
+2015-08-26 17:39:17		change current nick
+2015-08-26 17:39:17		-all: set new nick for all connected servers
+2015-08-26 17:39:17		nick: new nick
+2015-08-26 17:39:31		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-08-26 17:39:33	=!=	irc: command "nick" must be executed on irc buffer (server or channel)
+2015-08-26 17:40:41		Option changed: irc.server.freenode.nicks = "brian,brianosaurus,bbrian,bbbrian"  (default: (undefined))
+2015-08-26 17:41:45		Option changed: irc.look.smart_filter = on
+2015-08-26 17:41:58		Filter "irc_smart" added:
+2015-08-26 17:41:58		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2015-08-26 17:42:04		Filter "joinquit" added:
+2015-08-26 17:42:04		  [joinquit] buffer: * / tags: irc_join,irc_part,irc_quit / regex: * 
+2015-08-27 11:09:37		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-08-27 11:09:46	=!=	irc: command "join" must be executed on connected irc server
+2015-08-27 11:10:29		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-08-27 11:11:55		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-08-27 11:12:24	=!=	irc: command "join" must be executed on connected irc server
+2015-08-27 12:01:49		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-08-27 12:01:55	=!=	irc: unable to create temporary server "efnet" because the creation of temporary servers with command /connect is currently disabled
+2015-08-27 12:01:55	=!=	irc: if you want to create a standard server, use the command "/server add" (see /help server); if you really want to create a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2015-08-27 12:02:10	=!=	irc: unable to create temporary server "efnet" because the creation of temporary servers with command /connect is currently disabled
+2015-08-27 12:02:10	=!=	irc: if you want to create a standard server, use the command "/server add" (see /help server); if you really want to create a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2015-08-27 12:02:31		irc: server efnet created
+2015-08-27 12:02:36	=!=	Error: unknown command "/connet" (type /help for help)
+2015-09-09 17:05:36		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-09-09 17:06:02	=!=	irc: unable to create temporary server "efnet" because the creation of temporary servers with command /connect is currently disabled
+2015-09-09 17:06:02	=!=	irc: if you want to create a standard server, use the command "/server add" (see /help server); if you really want to create a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2015-09-09 17:06:13	=!=	irc: unable to create temporary server "efnet.net" because the creation of temporary servers with command /connect is currently disabled
+2015-09-09 17:06:13	=!=	irc: if you want to create a standard server, use the command "/server add" (see /help server); if you really want to create a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2015-09-09 17:06:21	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2015-09-09 17:07:03		irc: server efnet created
+2015-09-09 17:07:46		Option changed: irc.server_default.nicks = "= "brian,brianosaurus,bbrian,bbbrian""  (default: "")
+2015-09-09 17:07:50		Options saved to sec.conf
+2015-09-09 17:07:50		Options saved to weechat.conf
+2015-09-09 17:07:50		Options saved to plugins.conf
+2015-09-09 17:07:50		Options saved to alias.conf
+2015-09-09 17:07:50		Options saved to charset.conf
+2015-09-09 17:07:50		Options saved to exec.conf
+2015-09-09 17:07:50		Options saved to irc.conf
+2015-09-09 17:07:50		Options saved to logger.conf
+2015-09-09 17:07:50		Options saved to relay.conf
+2015-09-09 17:07:50		Options saved to script.conf
+2015-09-09 17:07:50		Options saved to trigger.conf
+2015-09-09 17:07:50		Options saved to xfer.conf
+2015-09-09 17:08:33		irc: server efnet has been deleted
+2015-09-09 17:08:50		irc: server efnet created
+2015-09-09 17:09:46		irc: server efnet has been deleted
+2015-09-09 17:09:55		irc: server efnet created
+2015-09-09 17:10:16	=!=	Error: unknown command "/del" (type /help for help)
+2015-09-09 17:10:22		irc: server efnet has been deleted
+2015-09-09 17:10:28		irc: server efnet created
+2015-09-09 17:10:58		Options saved to sec.conf
+2015-09-09 17:10:58		Options saved to weechat.conf
+2015-09-09 17:10:58		Options saved to plugins.conf
+2015-09-09 17:10:58		Options saved to alias.conf
+2015-09-09 17:10:58		Options saved to charset.conf
+2015-09-09 17:10:58		Options saved to exec.conf
+2015-09-09 17:10:58		Options saved to irc.conf
+2015-09-09 17:10:58		Options saved to logger.conf
+2015-09-09 17:10:58		Options saved to relay.conf
+2015-09-09 17:10:58		Options saved to script.conf
+2015-09-09 17:10:58		Options saved to trigger.conf
+2015-09-09 17:10:58		Options saved to xfer.conf
+2015-09-28 11:05:11		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-09-28 11:05:28	=!=	irc: command "join" must be executed on connected irc server
+2015-10-01 17:39:38		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-10-01 17:39:49	=!=	irc: command "join" must be executed on connected irc server
+2015-10-13 17:54:01		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-10-14 14:54:45		Plugins loaded: alias, charset, exec, fifo, irc, logger, relay, script, tcl, trigger, xfer
+2015-10-14 14:54:48	=!=	irc: command "join" must be executed on irc buffer (server or channel)

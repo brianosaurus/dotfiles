@@ -1,1 +1,1 @@
-/Users/brian/.bash_profile
+#export PATH=$(brew --prefix ruby)/bin:$PATH

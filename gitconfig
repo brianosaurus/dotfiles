@@ -1,1 +1,100 @@
-/Users/brian/.gitconfig
+[daemon]
+  receivepck = true
+
+[user]
+  name = Brian Woods
+  email = me@brian.biz
+
+[core]
+  excludesfile = "/Users/brian/.gitexcludes"
+  editor = /usr/bin/vim
+
+# http://git.or.cz/gitwiki/Aliases
+# http://www.rockstarprogrammer.org/post/2008/jan/29/wanted-git-cheat-sheet-collaboration/
+# maybe $(git symbolic-ref HEAD) and $(git config branch.master.remote)?
+#ijcd_: you might want to look into the branch.$branchName.remote and branch.$branchName.merge config settings
+[alias]
+  st = status
+	co = checkout
+  ci = commit
+  cl = clone
+  p = pull --rebase
+  b = branch
+  top = log -1
+  sp = subproject
+  ar = addremove
+  outgoing = !git-outgoing
+  incoming = !git-incoming
+  cleanup-whitespace = !git-cleanup-whitespace
+  submodule-status = !sh -c "git-submodule status | awk '{print $2}' | while read module ; do (cd $module && git status) ; done"
+  submodule-clear = !sh -c "git-submodule status | awk '{print $2}' | while read module ; do rm -rf $module ; done"
+  #outgoing = !echo sh -c 'git log -- ${1:-origin}/master..'
+  #incoming = !sh -c 'git log $(git symbolic-ref HEAD)..${1:-origin}/master'
+  #addremove = !git ls-files -d -m -o -z $* | git update-index --add --remove --verbose -z --stdin
+  #addremove = !bash -c "echo git-add -u ${1}  git add ${1}"
+  #addremove = !git-addremove
+  serve = !git daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
+  intercommit = !sh -c 'git show "$0" > .git/commit1 && git show "$1" > .git/commit2 && interdiff .git/commit[12] | less -FRS'
+  unindex = !git rm -r --cached $*
+  svncommit = !sh -c 'git svn rebase && git svn dcommit'
+  hdiff = !git diff HEAD $*
+  unstage = reset HEAD
+  log1 = log --pretty=oneline
+  logf = log --pretty=full
+  logff = log --pretty=fuller
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative 
+  ls = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative      
+  lgstat = log --stat -p
+  kaboom = "!f() {\
+    if [ $# -ne 2 ]; then echo "You must specify both a remote and branch to kaboom";\
+    else git push -f $1 $2; fi\
+    }; f"
+
+[color]
+  ui = auto
+  branch = auto
+  diff = auto
+  status = auto
+  interactive = auto
+  
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+
+[pack]
+  threads = 0
+
+[diff]
+  renamelimit = 0
+[merge]
+  #tool = emerge
+  #tool = emacs-merge
+  tool = kdiff3
+  conflictstyle = diff3
+[apply]
+  whitespace = fix
+[giggle]
+  compact-mode = false
+  main-window-maximized = false
+  main-window-geometry = 1179x793+85+456
+[rerere]
+  enabled = 1
+[github]
+  user = brianosaurus
+[push]
+  default = simple
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
