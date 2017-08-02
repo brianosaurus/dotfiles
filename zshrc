@@ -93,7 +93,7 @@ alias ctest='heroku run console -a adstage-test'
 
 export PROD='adstage-platform-v2'
 export STAGING='adstage-staging-platform-v2'
-export TEST='adstage-test'
+#export TEST='adstage-test'
 
 # aliases for platform
 alias platform-setup='bundle install; bundle exec rake db:migrate; bundle exec rake cequel:migrate; git co db/schema.rb;'
@@ -102,7 +102,7 @@ alias platform-run-stripe='foreman start -c web=1,all_worker=2,webhooks=1,ultrah
 alias blitzkrieg-snowball='foreman start -c web=1,all_worker=1,start=1,stop=1 > /tmp/x & less -r +F /tmp/x; kill -SIGINT %'
 alias platform-cleanup='ps aux | grep unicorn | awk '"'"'{print $2}'"'"' | xargs kill -9'
 
-alias skiq='bundle exec sidekiq -c 8 -q default -q webhooks -q linking -q planner -q warmer -q high_adwords_entity -q medium_adwords_entity -q low_adwords_entity -q high_adwords_metrics -q medium_adwords_metrics -q low_adwords_metrics -q bulk_bing_ads_entity -q high_bing_ads_entity -q medium_bing_ads_entity -q low_bing_ads_entity -q high_bing_ads_metrics -q medium_bing_ads_metrics -q low_bing_ads_metrics -q high_facebook_entity -q medium_facebook_entity -q low_facebook_entity -q high_facebook_metrics -q medium_facebook_metrics -q low_facebook_metrics -q high_linkedin_entity -q medium_linkedin_entity -q low_linkedin_entity -q high_linkedin_metrics -q medium_linkedin_metrics -q low_linkedin_metrics -q high_twitter_entity -q medium_twitter_entity -q low_twitter_entity -q high_twitter_metrics -q medium_twitter_metrics -q low_twitter_metrics -q high_goal_metrics -q medium_goal_metrics -q low_goal_metrics -q rules -q reports -q bulk_update -q migration -q low_google_analytics_entity -q medium_google_analytics_entity -q high_google_analytics_entity -i ${DYNO:-1}'
+alias skiq='bundle exec sidekiq -c 8 -q default -q webhooks -q linking -q planner -q warmer -q high_adwords_entity -q medium_adwords_entity -q low_adwords_entity -q high_adwords_metrics -q medium_adwords_metrics -q low_adwords_metrics -q bulk_bing_ads_entity -q high_bing_ads_entity -q medium_bing_ads_entity -q low_bing_ads_entity -q high_bing_ads_metrics -q medium_bing_ads_metrics -q low_bing_ads_metrics -q high_facebook_entity -q medium_facebook_entity -q low_facebook_entity -q high_facebook_metrics -q medium_facebook_metrics -q low_facebook_metrics -q high_linkedin_entity -q medium_linkedin_entity -q low_linkedin_entity -q high_linkedin_metrics -q medium_linkedin_metrics -q low_linkedin_metrics -q high_twitter_entity -q medium_twitter_entity -q low_twitter_entity -q high_twitter_metrics -q medium_twitter_metrics -q low_twitter_metrics -q high_goal_metrics -q medium_goal_metrics -q low_goal_metrics -q rules -q reports -q bulk_update -q migration -q low_google_analytics_entity -q medium_google_analytics_entity -q high_google_analytics_entity -q single_click_exports -i ${DYNO:-1}'
 
 
 export TRACKING_API_ROOT=http://adstage-staging-tracker.herokuapp.com/
@@ -124,12 +124,15 @@ export CASSANDRA_HOST=localhost
 export CASSANDRA_USER=cassandra
 export CASSANDRA_PASSWORD=cassandra
 
-export METRICS_USERNAME=user
-export METRICS_PASSWORD=password
+#export METRICS_USERNAME=user
+#export METRICS_PASSWORD=password
+
+export ADVIL_DEBUG=true
 
 alias pcd='cd ~/projects/adstage-platform-v2'
 alias ecd='cd ~/projects/adstage-ember'
 alias mcd='cd ~/projects/adstage-metrics-v3'
+alias rcd='cd ~/projects/adstage-report-center'
 
 alias less='less -R'
 alias ag='/usr/local/bin/ag --pager=less'
@@ -147,6 +150,8 @@ alias ggpush='git push origin $(current_branch)'
 alias ggpull='git pull origin $(current_branch)'
 alias 'git push -f'='git kaboom'
 
+alias emacs='/usr/local/opt/emacs-mac/bin/emacs'
+
 # have to put this somewhere
 ulimit -n 65536 65536
 
@@ -157,3 +162,5 @@ ulimit -n 65536 65536
 
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+source /usr/local/share/zsh/site-functions/_aws

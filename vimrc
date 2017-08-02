@@ -8,6 +8,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle/
 call vundle#begin()
 
+Bundle 'sheerun/vim-polyglot'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'gmarik/vundle'
 Plugin 'lukaszkorecki/CoffeeTags' " ctags for coffeescript
@@ -16,7 +17,7 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'vim-scripts/scratch.vim' " scratchpad
 Plugin 'vim-scripts/YankRing.vim' " multiple yank buffers
 Plugin 'airblade/vim-gitgutter' " dynamically shows what lines were edited
-Plugin 'wavded/vim-stylus' 
+Plugin 'wavded/vim-stylus' " stylus css syntax
 Plugin 'tpope/vim-fugitive' " git plugin
 Plugin 'tpope/vim-unimpaired' " keybindings for that work with ][ 
 Plugin 'tpope/vim-dispatch' " nice way to interface with make
